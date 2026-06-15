@@ -99,9 +99,9 @@ The analysis was conducted using a structured healthcare dataset extracted from 
 | Total Revenue | $12.3M |
 
 ### Database Structure
-### Excel Dashboard Preview
+### OLTP diagram
 
-![Excel Dashboard](images/excel-dashboard.png)
+![OLTP Diagram](Images/OLTP_Database_Schema.png)
 
 #### Reference Tables
 - AppointmentStatus
@@ -123,9 +123,9 @@ The analysis was conducted using a structured healthcare dataset extracted from 
 - Billing
 
 ### Data Warehouse Design
-### Excel Dashboard Preview
+### Data Warehouse Diagaram
 
-![Excel Dashboard](images/excel-dashboard.png)
+![Data Warehouse Diagram](Images/Data_Warehouse_Star_Schema.png)
 
 The OLTP system was transformed into a **Star Schema Data Warehouse** comprising:
 
@@ -247,6 +247,8 @@ Tracks:
 - Appointment Status Distribution
 - Department Performance
 - Revenue Trends
+    
+![Powerbi_Dahsboard](Images/Overview.png)
 
 ### 2. Doctor Performance Dashboard
 Tracks:
@@ -257,6 +259,8 @@ Tracks:
 - Diagnosis Distribution
 - Treatment Cost Analysis
 
+  ![Doctor Performance](Images/Doctor_Performance.png)
+
 ### 3. Doctor Detail (Drill-through)
 Provides:
 
@@ -265,15 +269,8 @@ Provides:
 - Clinical Ledger
 - Patient Demographics
 - Diagnosis Mix
-
-### Power BI Dashboard Preview
-
-![Power BI Dashboard](images/powerbi-dashboard.png)
-
-### Interactive Dashboard
-
-🔗 **View Interactive Dashboard:**  
-[View Power BI Dashboard](PASTE-POWERBI-LINK)
+  
+![Doctor Details](Images/Doctor_Details_(Drill_Through).png)
 
 ---
 
@@ -308,12 +305,7 @@ The Excel dashboard was developed for:
 
 ### Excel Dashboard Preview
 
-![Excel Dashboard](images/excel-dashboard.png)
-
-### Download Dashboard Files
-
-- 📊 Power BI Dashboard (.pbix)
-- 📈 Excel Dashboard (.xlsx)
+![Excel Dashboard](Images/Business_dashboard.png)
 
 ---
 
@@ -412,7 +404,7 @@ representing a **34% seasonal variance**.
 
 ## Recommendations
 
-### 1. Strengthen Billing and Collections Process (High Priority)
+### 1. Strengthen Billing and Collections Process
 
 Introduce:
 
@@ -425,7 +417,7 @@ Recover approximately **$1.9M in additional revenue**.
 
 ---
 
-### 2. Reduce Appointment Cancellations and No-Shows (High Priority)
+### 2. Reduce Appointment Cancellations and No-Shows 
 
 Introduce:
 
@@ -439,7 +431,7 @@ Generate **700 additional completed appointments annually**, worth approximately
 
 ---
 
-### 3. Expand High-Revenue Specialty Departments (Medium Priority)
+### 3. Expand High-Revenue Specialty Departments 
 
 Expand:
 
@@ -456,7 +448,7 @@ Generate **$250K+ annual revenue growth**.
 
 ---
 
-### 4. Diversify Beyond Paediatric Care (Medium Priority)
+### 4. Diversify Beyond Paediatric Care 
 
 Target:
 
@@ -471,7 +463,7 @@ Improved revenue diversification and reduced demographic concentration risk.
 
 ---
 
-### 5. Establish a KPI Monitoring Framework (Medium Priority)
+### 5. Establish a KPI Monitoring Framework 
 
 Implement:
 
@@ -496,7 +488,7 @@ Faster issue identification and stronger execution of operational improvements.
 Read the complete business analysis on Medium:
 
 🔗 **Read Full Analysis Here**  
-(PASTE YOUR MEDIUM LINK)
+(https://medium.com/@qoozimjamiu21/medicare-plus-healthcare-performance-analysis-identifying-revenue-gaps-and-operational-03c224777931)
 
 ---
 
